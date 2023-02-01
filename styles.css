@@ -1,0 +1,133 @@
+body {
+    padding: 30px; 
+    background: #ecdfdf url(https://avatars.mds.yandex.net/i?id=e175babba377ddaa0f14c7ec7fcee0f399b4ec65-7669654-images-thumbs&n=13);
+    background-size: 100%;
+      }
+  /*Основная рамка*/
+.logotype {
+    text-align: center;
+    background-repeat: repeat-x;
+  }
+  /*Неудачная попытка размножить лого*/
+  .navigation {
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+    border-color: aquamarine;
+    background-color: rgba(157, 233, 238, 0.596);
+    border-radius: 10px;
+  }
+  /*Рамка навигации*/
+  .navigation_buttom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+  }
+  /*Попытки выстроить кнопки навигации*/
+  .navigation_buttom a {
+    display: block;
+    width: 5em;
+    padding:10px;
+    margin: 0 5px;
+    background-color: #ecdfdf;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  /*Честно спижженный код для красивых кнопочек навигации */
+  .card-konteiner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /*Построение карточек*/
+  .card {
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    padding: 10px 20px;
+    background-color: rgb(228, 222, 222);
+    opacity: 0.9;
+    border-radius: 40px;
+    margin-bottom: 10px;
+  }
+  /*Основная рамка карточки*/
+  .card_categori {
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  .card_picture {
+    /*border: 1px solid rgb(116, 58, 58);*/
+    width: 330px;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    border-bottom: 1px solid black;
+  }
+  /*Оформление блока с картинками*/
+  .card_main-picture {
+    border-radius: 20px;
+  }
+  /*Основная картинка*/
+  .card_mini-picture1 {
+    margin-left: 5px;
+    border-radius: 10px;
+
+  }
+  /*Мини картинка 1*/
+  .card_mini-picture2 {
+    margin-left: 5px;
+    border-radius: 10px;
+    
+  }
+  /*Мини картинка 2*/
+  .card_main {
+    width: 330px;
+    height: 180px;
+    margin-top: 5px;
+    font-size: 85%;
+  }
+  /*Оформление блока с текстом*/
+  .card_main-price-old {
+    color: rgba(0,0,0,0.5);
+  }
+  /*Старая цена*/
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: 
+#fff;
+    border: 1px solid 
+#ccc;
+    box-shadow: 0 2px 4px 
+rgba(0,0,0,0.15), inset 0 0 50px 
+rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: 
+#000;
+}
+.youtube a:hover {background: 
+#c4302b; color: 
+#fff;}
+.twitter a:hover {background: 
+#00acee; color: 
+#fff;}
+.instagram a:hover {background: 
+#3f729b; color: 
+#fff;}
+.facebook a:hover {background: 
+#3b5998; color: 
+#fff;}
+.vk a:hover {background: 
+#5d84ae; color: 
+#fff;}
+/*Тихо спиздил и ушел, называется нашел*/
